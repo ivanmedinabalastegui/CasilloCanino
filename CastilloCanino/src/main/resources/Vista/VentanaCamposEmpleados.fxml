@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ventanuca" prefHeight="697.0" prefWidth="689.0" stylesheets="@campos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.VentanaCamposController">
+   <children>
+      <AnchorPane id="ventanuca" prefHeight="697.0" prefWidth="695.0">
+         <children>
+
+            <!--Label principal______________________________________________________________-->
+            <Label id="HEADER" layoutX="66.0" layoutY="43.0" prefHeight="46.0" prefWidth="382.0" text="FORMULARIO DE REGISTRO">
+               <font>
+                  <Font name="Courier New" size="20.0" />
+               </font>
+            </Label>
+            <!--_____________________________________________________________________________-->
+
+            <!--Líneas_______________________________________________________________________-->
+            <Line endX="459.0" layoutX="168.0" layoutY="110.0" startX="-100.0" />
+            <Line endX="459.0" layoutX="168.0" layoutY="175.0" startX="-100.0" />
+            <Line endX="-100.0" endY="63.0" layoutX="259.0" layoutY="99.0" startX="-100.0" startY="26.0" />
+            <Line endX="459.0" layoutX="168.0" layoutY="245.0" startX="-100.0" />
+            <Line endX="-100.0" endY="63.0" layoutX="231.0" layoutY="168.0" startX="-100.0" startY="26.0" />
+            <Line endX="79.0" layoutX="177.0" layoutY="374.0" startX="-100.0" />
+            <Line endX="-100.0" endY="63.0" layoutX="382.0" layoutY="302.0" startX="-100.0" startY="26.0" />
+            <Line endX="228.0" layoutX="406.0" layoutY="374.0" startX="-100.0" />
+            <Line endX="459.0" layoutX="168.0" layoutY="603.0" startX="-100.0" />
+            <Line endX="-100.0" endY="63.0" layoutX="538.0" layoutY="99.0" startX="-100.0" startY="26.0" />
+            <Line endX="-100.0" endY="63.0" layoutX="524.0" layoutY="168.0" startX="-100.0" startY="26.0" />
+            <Line endX="85.0" layoutX="176.0" layoutY="457.0" startX="-100.0" />
+            <Line endX="228.0" layoutX="416.0" layoutY="460.0" startX="-100.0" />
+            <Line endX="-100.0" endY="63.0" layoutX="382.0" layoutY="395.0" startX="-100.0" startY="26.0" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Nombre_______________________________________________________________________-->
+            <Label layoutX="70.0" layoutY="128.0" prefHeight="32.0" prefWidth="85.0" text="Nombre*">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXTextField id="camposform" fx:id="textNomEmp" focusColor="TRANSPARENT" layoutX="171.0" layoutY="132.0" prefHeight="25.0" prefWidth="141.0" unFocusColor="TRANSPARENT" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Apellidos____________________________________________________________________-->
+            <Label layoutX="322.0" layoutY="128.0" prefHeight="32.0" prefWidth="127.0" text="Apellidos*">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXTextField id="camposform" fx:id="txtApEmp" focusColor="TRANSPARENT" layoutX="450.0" layoutY="132.0" prefHeight="25.0" prefWidth="180.0" unFocusColor="TRANSPARENT" />
+            <!--_____________________________________________________________________________-->
+
+            <!--DNI__________________________________________________________________________-->
+            <Label layoutX="70.0" layoutY="195.0" prefHeight="32.0" prefWidth="63.0" text="DNI*">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+            <JFXTextField id="camposform" fx:id="textDNIEmp" focusColor="TRANSPARENT" layoutX="138.0" layoutY="197.0" prefHeight="31.0" prefWidth="148.0" unFocusColor="TRANSPARENT" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Teléfono_____________________________________________________________________-->
+            <Label layoutX="328.0" layoutY="199.0" prefHeight="32.0" prefWidth="85.0" text="Teléfono">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXTextField id="camposform" fx:id="txtTlfEmp" focusColor="TRANSPARENT" layoutX="432.0" layoutY="200.0" prefHeight="31.0" prefWidth="180.0" unFocusColor="TRANSPARENT" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Email________________________________________________________________________-->
+            <Label layoutX="70.0" layoutY="264.0" prefHeight="32.0" prefWidth="63.0" text="Email">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXTextField id="camposform" fx:id="txtEmailEmp" focusColor="TRANSPARENT" layoutX="135.0" layoutY="267.0" prefHeight="31.0" prefWidth="486.0" unFocusColor="TRANSPARENT" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Cargo________________________________________________________________________-->
+            <Label layoutX="70.0" layoutY="331.0" prefHeight="32.0" prefWidth="78.0" text="Cargo*">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXTextField id="camposform" fx:id="txtCargoEmp" focusColor="TRANSPARENT" layoutX="141.0" layoutY="334.0" prefHeight="25.0" prefWidth="127.0" unFocusColor="TRANSPARENT" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Horario______________________________________________________________________-->
+            <Label layoutX="306.0" layoutY="331.0" prefHeight="32.0" prefWidth="148.0" text="Horario*">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXTextField id="camposform" fx:id="txtHorario" focusColor="TRANSPARENT" layoutX="466.0" layoutY="335.0" prefHeight="25.0" prefWidth="169.0" promptText="L-M-X-J-V-S-D" unFocusColor="TRANSPARENT" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Turno________________________________________________________________________-->
+            <Label layoutX="70.0" layoutY="414.0" prefHeight="32.0" prefWidth="78.0" text="Turno">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXComboBox fx:id="comboTurno" focusColor="#a84047" layoutX="128.0" layoutY="418.0" prefHeight="25.0" prefWidth="127.0" unFocusColor="BLACK">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="Diurno" />
+                     <String fx:value="Nocturno" />
+                     <String fx:value="Partido" />
+                  </FXCollections>
+               </items>
+            </JFXComboBox>
+            <!--_____________________________________________________________________________-->
+
+            <!--Nombre de la Caseta ______________________________________________________________-->
+            <Label layoutX="316.0" layoutY="417.0" prefHeight="32.0" prefWidth="148.0" text="Nombre Caseta*">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+
+            <JFXComboBox fx:id="comboNombreCaseta" focusColor="#a84047" layoutX="467.0" layoutY="418.0" prefHeight="25.0" prefWidth="169.0" unFocusColor="BLACK" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Botones______________________________________________________________________-->
+            <Label layoutX="81.0" layoutY="632.0" prefHeight="38.0" prefWidth="78.0" text="ENVIAR" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="21.0" />
+               </font>
+            </Label>
+
+            <JFXButton fx:id="botonEnviar" layoutX="71.0" layoutY="619.0" onAction="#accionBotones" prefHeight="66.0" prefWidth="148.0" ripplerFill="#9e4c4c" style="-fx-padding: 0;" text="       ➤">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </JFXButton>
+
+            <JFXButton fx:id="botonSubirImagen" layoutX="501.0" layoutY="73.0" onAction="#accionBotones" prefHeight="32.0" prefWidth="127.0" ripplerFill="#9e4c4c" style="-fx-padding: 0; -fx-border-color: black; -fx-border-radius: 5;" text="Subir Imagen">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+
+            <JFXButton fx:id="botonCancelar" layoutX="537.0" layoutY="626.0" onAction="#accionBotones" text="CANCELAR" />
+            <!--_____________________________________________________________________________-->
+
+            <!--Imágenes_____________________________________________________________________-->
+            <ImageView fx:id="imagenActual" fitHeight="96.0" fitWidth="141.0" layoutX="402.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imagenCaseta" fitHeight="96.0" fitWidth="141.0" layoutX="487.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true" />
+            <Line endX="-100.0" endY="63.0" layoutX="223.0" layoutY="234.0" startX="-100.0" startY="26.0" />
+            <Line endX="459.0" layoutX="170.0" layoutY="312.0" startX="-100.0" />
+            <!--_____________________________________________________________________________-->
+
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

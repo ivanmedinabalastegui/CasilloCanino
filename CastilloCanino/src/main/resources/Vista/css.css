@@ -1,0 +1,141 @@
+.root {
+    -fx-background-color: white;
+}
+
+.root {
+    -fx-font-family: "Courier New";
+}
+
+#botonAlmacen {
+
+    -fx-background-image: url(/Imagenes/box.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 55px 60px;
+}
+
+#botonGestion {
+
+    -fx-background-image: url(/Imagenes/documents.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#botonEmpleados {
+
+    -fx-background-image: url(/Imagenes/employees.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.button {
+    -fx-background-size: 60px 65px;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: #AA9FFF,
+    #AA9FFF,
+    #AA9FFF,
+    radial-gradient(center 50% 50%, radius 100%, black, black);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, BLACK 0%, BLACK 100%),
+    #AA9FFF,
+    #AA9FFF,
+    radial-gradient(center 50% 50%, radius 100%, #AA9FFF, #AA9FFF);
+}
+
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: #AA9FFF !IMPORTANT;
+}
+
+.jfx-tab-pane .headers-region > .tab > .jfx-rippler {
+    -jfx-rippler-fill: black;
+}
+
+.jfx-tab-pane .headers-region .tab-selected-line {
+    -fx-background-color: black;
+}
+
+.table-view .show-hide-columns-button {
+    -fx-background-color: red;
+    -fx-border-color: -fx-box-border;
+    -fx-border-insets: -1 -1 0 0;
+}
+
+.green-bar > .bar {
+    -fx-background-color: green;
+}
+
+.orange-bar > .bar {
+    -fx-background-color: orange;
+}
+
+.red-bar > .bar {
+    -fx-background-color: red;
+}
+
+#tarjetaEmplePanel {
+
+    -fx-background-image: url(../Imagenes/fondocampos.png);
+    -fx-background-repeat: none;
+    -fx-background-size: cover;
+}
+
+#tarjetaEmplePanel > .label {
+    -fx-text-fill: white;
+}
+
+.combo-box > .list-cell {
+    -fx-background: #AA9FFF;
+    -fx-background-color: #AA9FFF;
+    -fx-text-fill: black;
+}
+
+.combo-box-popup .list-view .list-cell{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.accordion .titled-pane .title {
+    -fx-background-color: transparent ;
+}
+
+.empleadoDia {
+
+    -fx-background-image: url(../Imagenes/banner-diurno.png);
+    -fx-background-repeat: none;
+    -fx-background-size: cover;
+    -fx-font-weight: bold;
+
+}
+
+.empleadoNoche {
+
+    -fx-background-image: url(../Imagenes/banner-nocturno.png);
+    -fx-background-repeat: none;
+    -fx-background-size: cover;
+    -fx-font-weight: bold;
+}
+
+.empleadoPartido {
+
+    -fx-background-image: url(../Imagenes/banner-partido.png);
+    -fx-background-repeat: none;
+    -fx-background-size: cover;
+    -fx-font-weight: bold;
+}
+
+.empleadoNoche .label, .empleadoPartido .label {
+
+    -fx-text-fill: #AA9FFF;
+}
