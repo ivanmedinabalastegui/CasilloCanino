@@ -11,9 +11,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
-/**
- * JavaFX App
- */
+
 
 //Clase principal encargada de ejecutar la ventana inicial (Ventana Bienvenida).
 public class Iniciar extends Application {

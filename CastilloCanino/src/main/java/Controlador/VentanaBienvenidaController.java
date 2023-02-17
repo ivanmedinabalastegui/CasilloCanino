@@ -13,10 +13,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
- *
- * @author josea
- */
+
 public class VentanaBienvenidaController implements Initializable {
 
     public JFXButton botonAlmacen, botonGestion, botonEmpleados;
